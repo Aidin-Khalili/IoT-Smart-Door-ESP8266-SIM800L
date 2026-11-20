@@ -11,6 +11,10 @@ A smart access-control door built on an **ESP8266** Wi-Fi module and a **SIM800L
 
 Open `Code.cpp` in the Arduino IDE with the ESP8266 board package installed, set `SSID` and `PASSWORD`, and upload.
 
+## Libraries
+
+`ESP8266WiFi`, `ESP8266WebServer` and `EEPROM` (from the ESP8266 Arduino core) and `SoftwareSerial` for the SIM800L module.
+
 ## License
 
 Released under the [MIT License](LICENSE): free to use, modify and share with attribution.
