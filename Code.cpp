@@ -17,7 +17,7 @@ void saveToEEPROM(const String &_str, const byte &_from);
 bool loadFromEEPROM(String &_str, const byte &_from);
 
 #define SSID "Smart Door"
-#define PASSWORD "a1b2c3d4"
+#define PASSWORD "change-me"  // set your own Wi-Fi password
 bool WiFiConfig();
 
 ESP8266WebServer server(80);
